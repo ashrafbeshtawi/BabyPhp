@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Php-Baby - A zero configuration App built with Php, Docker, Postgresql, Flyway
+
+# Boot-up the project
+
+# init .env
+cp .env.example .env
+
+# Run the Docker Containers
+docker-compose up -d
+
+
+
+
