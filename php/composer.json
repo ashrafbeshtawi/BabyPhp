@@ -1,0 +1,12 @@
+{
+  "name": "your-vendor-name/your-project-name",
+  "description": "Your project description",
+  "type": "project",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "main\\": "html/"
+    }
+  }
+}

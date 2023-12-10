@@ -11,7 +11,7 @@ services:
     ports:
       - "1234:80"
     volumes:
-      - ./php/public:/var/www/html/
+      - ./php:/var/www/
     networks:
       - backroom-nt
 
